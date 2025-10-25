@@ -15,6 +15,6 @@ Laguage改为C#，重启Fiddler
 
 在Script部分开头添加`using Newtonsoft.Json.Linq;`
 
-`OnBeforeRequest()`函数中添加[tamper.js](https://github.com/k4leidoscope/SmartBUAAHelperLite/tamper.js)的内容
+`OnBeforeRequest()`函数内添加[tamper.js](https://github.com/k4leidoscope/SmartBUAAHelperLite/tamper.js)中的内容
 
-Save后，在spoc.buaa中所需播放课程，完成进度增加代表网站相关接口稳定运行
+Save后，在spoc.buaa中播放所需课程，完成进度增加代表网站接口稳定运行
